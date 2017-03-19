@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D5E88531E7EBF510046FEAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5E88521E7EBF510046FEAC /* AppDelegate.swift */; };
+		4D5E88551E7EBF510046FEAC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5E88541E7EBF510046FEAC /* ViewController.swift */; };
+		4D5E88581E7EBF510046FEAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D5E88561E7EBF510046FEAC /* Main.storyboard */; };
+		4D5E885A1E7EBF510046FEAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D5E88591E7EBF510046FEAC /* Assets.xcassets */; };
+		4D5E885D1E7EBF510046FEAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D5E885B1E7EBF510046FEAC /* LaunchScreen.storyboard */; };
+		4D5E88681E7EBF510046FEAC /* FunShinyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5E88671E7EBF510046FEAC /* FunShinyTests.swift */; };
+		4D5E88731E7EBF510046FEAC /* FunShinyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5E88721E7EBF510046FEAC /* FunShinyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4D5E88641E7EBF510046FEAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D5E88471E7EBF510046FEAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D5E884E1E7EBF510046FEAC;
+			remoteInfo = FunShiny;
+		};
+		4D5E886F1E7EBF510046FEAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D5E88471E7EBF510046FEAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D5E884E1E7EBF510046FEAC;
+			remoteInfo = FunShiny;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4D5E884F1E7EBF510046FEAC /* FunShiny.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunShiny.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D5E88521E7EBF510046FEAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4D5E88541E7EBF510046FEAC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4D5E88571E7EBF510046FEAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4D5E88591E7EBF510046FEAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4D5E885C1E7EBF510046FEAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4D5E885E1E7EBF510046FEAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D5E88631E7EBF510046FEAC /* FunShinyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunShinyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D5E88671E7EBF510046FEAC /* FunShinyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunShinyTests.swift; sourceTree = "<group>"; };
+		4D5E88691E7EBF510046FEAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D5E886E1E7EBF510046FEAC /* FunShinyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunShinyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D5E88721E7EBF510046FEAC /* FunShinyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunShinyUITests.swift; sourceTree = "<group>"; };
+		4D5E88741E7EBF510046FEAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D5E884C1E7EBF510046FEAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D5E88601E7EBF510046FEAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D5E886B1E7EBF510046FEAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D5E88461E7EBF510046FEAC = {
+			isa = PBXGroup;
+			children = (
+				4D5E88511E7EBF510046FEAC /* FunShiny */,
+				4D5E88661E7EBF510046FEAC /* FunShinyTests */,
+				4D5E88711E7EBF510046FEAC /* FunShinyUITests */,
+				4D5E88501E7EBF510046FEAC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4D5E88501E7EBF510046FEAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D5E884F1E7EBF510046FEAC /* FunShiny.app */,
+				4D5E88631E7EBF510046FEAC /* FunShinyTests.xctest */,
+				4D5E886E1E7EBF510046FEAC /* FunShinyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D5E88511E7EBF510046FEAC /* FunShiny */ = {
+			isa = PBXGroup;
+			children = (
+				4D5E88521E7EBF510046FEAC /* AppDelegate.swift */,
+				4D5E88541E7EBF510046FEAC /* ViewController.swift */,
+				4D5E88561E7EBF510046FEAC /* Main.storyboard */,
+				4D5E88591E7EBF510046FEAC /* Assets.xcassets */,
+				4D5E885B1E7EBF510046FEAC /* LaunchScreen.storyboard */,
+				4D5E885E1E7EBF510046FEAC /* Info.plist */,
+			);
+			path = FunShiny;
+			sourceTree = "<group>";
+		};
+		4D5E88661E7EBF510046FEAC /* FunShinyTests */ = {
+			isa = PBXGroup;
+			children = (
+				4D5E88671E7EBF510046FEAC /* FunShinyTests.swift */,
+				4D5E88691E7EBF510046FEAC /* Info.plist */,
+			);
+			path = FunShinyTests;
+			sourceTree = "<group>";
+		};
+		4D5E88711E7EBF510046FEAC /* FunShinyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4D5E88721E7EBF510046FEAC /* FunShinyUITests.swift */,
+				4D5E88741E7EBF510046FEAC /* Info.plist */,
+			);
+			path = FunShinyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D5E884E1E7EBF510046FEAC /* FunShiny */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D5E88771E7EBF520046FEAC /* Build configuration list for PBXNativeTarget "FunShiny" */;
+			buildPhases = (
+				4D5E884B1E7EBF510046FEAC /* Sources */,
+				4D5E884C1E7EBF510046FEAC /* Frameworks */,
+				4D5E884D1E7EBF510046FEAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FunShiny;
+			productName = FunShiny;
+			productReference = 4D5E884F1E7EBF510046FEAC /* FunShiny.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4D5E88621E7EBF510046FEAC /* FunShinyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D5E887A1E7EBF520046FEAC /* Build configuration list for PBXNativeTarget "FunShinyTests" */;
+			buildPhases = (
+				4D5E885F1E7EBF510046FEAC /* Sources */,
+				4D5E88601E7EBF510046FEAC /* Frameworks */,
+				4D5E88611E7EBF510046FEAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D5E88651E7EBF510046FEAC /* PBXTargetDependency */,
+			);
+			name = FunShinyTests;
+			productName = FunShinyTests;
+			productReference = 4D5E88631E7EBF510046FEAC /* FunShinyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4D5E886D1E7EBF510046FEAC /* FunShinyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D5E887D1E7EBF520046FEAC /* Build configuration list for PBXNativeTarget "FunShinyUITests" */;
+			buildPhases = (
+				4D5E886A1E7EBF510046FEAC /* Sources */,
+				4D5E886B1E7EBF510046FEAC /* Frameworks */,
+				4D5E886C1E7EBF510046FEAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D5E88701E7EBF510046FEAC /* PBXTargetDependency */,
+			);
+			name = FunShinyUITests;
+			productName = FunShinyUITests;
+			productReference = 4D5E886E1E7EBF510046FEAC /* FunShinyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D5E88471E7EBF510046FEAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = fixique;
+				TargetAttributes = {
+					4D5E884E1E7EBF510046FEAC = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = JE6A9LTMD3;
+						ProvisioningStyle = Automatic;
+					};
+					4D5E88621E7EBF510046FEAC = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = JE6A9LTMD3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4D5E884E1E7EBF510046FEAC;
+					};
+					4D5E886D1E7EBF510046FEAC = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = JE6A9LTMD3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4D5E884E1E7EBF510046FEAC;
+					};
+				};
+			};
+			buildConfigurationList = 4D5E884A1E7EBF510046FEAC /* Build configuration list for PBXProject "FunShiny" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4D5E88461E7EBF510046FEAC;
+			productRefGroup = 4D5E88501E7EBF510046FEAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D5E884E1E7EBF510046FEAC /* FunShiny */,
+				4D5E88621E7EBF510046FEAC /* FunShinyTests */,
+				4D5E886D1E7EBF510046FEAC /* FunShinyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D5E884D1E7EBF510046FEAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D5E885D1E7EBF510046FEAC /* LaunchScreen.storyboard in Resources */,
+				4D5E885A1E7EBF510046FEAC /* Assets.xcassets in Resources */,
+				4D5E88581E7EBF510046FEAC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D5E88611E7EBF510046FEAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D5E886C1E7EBF510046FEAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D5E884B1E7EBF510046FEAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D5E88551E7EBF510046FEAC /* ViewController.swift in Sources */,
+				4D5E88531E7EBF510046FEAC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D5E885F1E7EBF510046FEAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D5E88681E7EBF510046FEAC /* FunShinyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D5E886A1E7EBF510046FEAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D5E88731E7EBF510046FEAC /* FunShinyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4D5E88651E7EBF510046FEAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D5E884E1E7EBF510046FEAC /* FunShiny */;
+			targetProxy = 4D5E88641E7EBF510046FEAC /* PBXContainerItemProxy */;
+		};
+		4D5E88701E7EBF510046FEAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D5E884E1E7EBF510046FEAC /* FunShiny */;
+			targetProxy = 4D5E886F1E7EBF510046FEAC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4D5E88561E7EBF510046FEAC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D5E88571E7EBF510046FEAC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4D5E885B1E7EBF510046FEAC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D5E885C1E7EBF510046FEAC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4D5E88751E7EBF510046FEAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4D5E88761E7EBF510046FEAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D5E88781E7EBF520046FEAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JE6A9LTMD3;
+				INFOPLIST_FILE = FunShiny/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.fixique.FunShiny;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4D5E88791E7EBF520046FEAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JE6A9LTMD3;
+				INFOPLIST_FILE = FunShiny/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.fixique.FunShiny;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		4D5E887B1E7EBF520046FEAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = JE6A9LTMD3;
+				INFOPLIST_FILE = FunShinyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.fixique.FunShinyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FunShiny.app/FunShiny";
+			};
+			name = Debug;
+		};
+		4D5E887C1E7EBF520046FEAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = JE6A9LTMD3;
+				INFOPLIST_FILE = FunShinyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.fixique.FunShinyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FunShiny.app/FunShiny";
+			};
+			name = Release;
+		};
+		4D5E887E1E7EBF520046FEAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = JE6A9LTMD3;
+				INFOPLIST_FILE = FunShinyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.fixique.FunShinyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FunShiny;
+			};
+			name = Debug;
+		};
+		4D5E887F1E7EBF520046FEAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = JE6A9LTMD3;
+				INFOPLIST_FILE = FunShinyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.fixique.FunShinyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FunShiny;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D5E884A1E7EBF510046FEAC /* Build configuration list for PBXProject "FunShiny" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D5E88751E7EBF510046FEAC /* Debug */,
+				4D5E88761E7EBF510046FEAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D5E88771E7EBF520046FEAC /* Build configuration list for PBXNativeTarget "FunShiny" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D5E88781E7EBF520046FEAC /* Debug */,
+				4D5E88791E7EBF520046FEAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4D5E887A1E7EBF520046FEAC /* Build configuration list for PBXNativeTarget "FunShinyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D5E887B1E7EBF520046FEAC /* Debug */,
+				4D5E887C1E7EBF520046FEAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4D5E887D1E7EBF520046FEAC /* Build configuration list for PBXNativeTarget "FunShinyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D5E887E1E7EBF520046FEAC /* Debug */,
+				4D5E887F1E7EBF520046FEAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D5E88471E7EBF510046FEAC /* Project object */;
+}
