@@ -1,0 +1,4 @@
+# FunShiny
+
+
+##### Small weather application 

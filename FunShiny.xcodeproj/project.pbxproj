@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		4D5E88531E7EBF510046FEAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5E88521E7EBF510046FEAC /* AppDelegate.swift */; };
-		4D5E88551E7EBF510046FEAC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5E88541E7EBF510046FEAC /* ViewController.swift */; };
+		4D5E88551E7EBF510046FEAC /* WeatherVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5E88541E7EBF510046FEAC /* WeatherVC.swift */; };
 		4D5E88581E7EBF510046FEAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D5E88561E7EBF510046FEAC /* Main.storyboard */; };
 		4D5E885A1E7EBF510046FEAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D5E88591E7EBF510046FEAC /* Assets.xcassets */; };
 		4D5E885D1E7EBF510046FEAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D5E885B1E7EBF510046FEAC /* LaunchScreen.storyboard */; };
 		4D5E88681E7EBF510046FEAC /* FunShinyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5E88671E7EBF510046FEAC /* FunShinyTests.swift */; };
 		4D5E88731E7EBF510046FEAC /* FunShinyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5E88721E7EBF510046FEAC /* FunShinyUITests.swift */; };
+		4D9491F41E7EDCE200A1D8C4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9491F31E7EDCE200A1D8C4 /* Constants.swift */; };
+		4D9491F61E7EDEF200A1D8C4 /* CurrentWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9491F51E7EDEF200A1D8C4 /* CurrentWeather.swift */; };
+		4D9491F81E7F348D00A1D8C4 /* Forecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9491F71E7F348D00A1D8C4 /* Forecast.swift */; };
+		4D9491FA1E7F41EB00A1D8C4 /* WeatherCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9491F91E7F41EB00A1D8C4 /* WeatherCell.swift */; };
+		4D9491FC1E7F484300A1D8C4 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9491FB1E7F484300A1D8C4 /* Location.swift */; };
+		D2832A37D11D105AD890708E /* Pods_FunShiny.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29A1E2429CC86647A3A27C6B /* Pods_FunShiny.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		29A1E2429CC86647A3A27C6B /* Pods_FunShiny.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FunShiny.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D5E884F1E7EBF510046FEAC /* FunShiny.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunShiny.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D5E88521E7EBF510046FEAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4D5E88541E7EBF510046FEAC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4D5E88541E7EBF510046FEAC /* WeatherVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherVC.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		4D5E88571E7EBF510046FEAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4D5E88591E7EBF510046FEAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D5E885C1E7EBF510046FEAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +54,13 @@
 		4D5E886E1E7EBF510046FEAC /* FunShinyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunShinyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D5E88721E7EBF510046FEAC /* FunShinyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunShinyUITests.swift; sourceTree = "<group>"; };
 		4D5E88741E7EBF510046FEAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D9491F31E7EDCE200A1D8C4 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		4D9491F51E7EDEF200A1D8C4 /* CurrentWeather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentWeather.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		4D9491F71E7F348D00A1D8C4 /* Forecast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Forecast.swift; sourceTree = "<group>"; };
+		4D9491F91E7F41EB00A1D8C4 /* WeatherCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherCell.swift; sourceTree = "<group>"; };
+		4D9491FB1E7F484300A1D8C4 /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		9123214C699AAE39E8A41E34 /* Pods-FunShiny.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FunShiny.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FunShiny/Pods-FunShiny.debug.xcconfig"; sourceTree = "<group>"; };
+		9DF0162AB7B0EA9ECDB651E7 /* Pods-FunShiny.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FunShiny.release.xcconfig"; path = "Pods/Target Support Files/Pods-FunShiny/Pods-FunShiny.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2832A37D11D105AD890708E /* Pods_FunShiny.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +96,8 @@
 				4D5E88661E7EBF510046FEAC /* FunShinyTests */,
 				4D5E88711E7EBF510046FEAC /* FunShinyUITests */,
 				4D5E88501E7EBF510046FEAC /* Products */,
+				93B50E9ACE8B56099379D315 /* Pods */,
+				81C73B5E7B036ECD2A149874 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,11 +115,16 @@
 			isa = PBXGroup;
 			children = (
 				4D5E88521E7EBF510046FEAC /* AppDelegate.swift */,
-				4D5E88541E7EBF510046FEAC /* ViewController.swift */,
+				4D5E88541E7EBF510046FEAC /* WeatherVC.swift */,
 				4D5E88561E7EBF510046FEAC /* Main.storyboard */,
 				4D5E88591E7EBF510046FEAC /* Assets.xcassets */,
 				4D5E885B1E7EBF510046FEAC /* LaunchScreen.storyboard */,
 				4D5E885E1E7EBF510046FEAC /* Info.plist */,
+				4D9491F31E7EDCE200A1D8C4 /* Constants.swift */,
+				4D9491F51E7EDEF200A1D8C4 /* CurrentWeather.swift */,
+				4D9491F71E7F348D00A1D8C4 /* Forecast.swift */,
+				4D9491F91E7F41EB00A1D8C4 /* WeatherCell.swift */,
+				4D9491FB1E7F484300A1D8C4 /* Location.swift */,
 			);
 			path = FunShiny;
 			sourceTree = "<group>";
@@ -125,6 +147,23 @@
 			path = FunShinyUITests;
 			sourceTree = "<group>";
 		};
+		81C73B5E7B036ECD2A149874 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29A1E2429CC86647A3A27C6B /* Pods_FunShiny.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		93B50E9ACE8B56099379D315 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9123214C699AAE39E8A41E34 /* Pods-FunShiny.debug.xcconfig */,
+				9DF0162AB7B0EA9ECDB651E7 /* Pods-FunShiny.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +171,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4D5E88771E7EBF520046FEAC /* Build configuration list for PBXNativeTarget "FunShiny" */;
 			buildPhases = (
+				14F596AAC31E8431F5CB4A83 /* [CP] Check Pods Manifest.lock */,
 				4D5E884B1E7EBF510046FEAC /* Sources */,
 				4D5E884C1E7EBF510046FEAC /* Frameworks */,
 				4D5E884D1E7EBF510046FEAC /* Resources */,
+				F29D49C265CF56758232481C /* [CP] Embed Pods Frameworks */,
+				0181133712A71AF4D06FDCC3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,13 +299,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0181133712A71AF4D06FDCC3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FunShiny/Pods-FunShiny-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		14F596AAC31E8431F5CB4A83 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F29D49C265CF56758232481C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FunShiny/Pods-FunShiny-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4D5E884B1E7EBF510046FEAC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D5E88551E7EBF510046FEAC /* ViewController.swift in Sources */,
+				4D5E88551E7EBF510046FEAC /* WeatherVC.swift in Sources */,
 				4D5E88531E7EBF510046FEAC /* AppDelegate.swift in Sources */,
+				4D9491FA1E7F41EB00A1D8C4 /* WeatherCell.swift in Sources */,
+				4D9491F61E7EDEF200A1D8C4 /* CurrentWeather.swift in Sources */,
+				4D9491F41E7EDCE200A1D8C4 /* Constants.swift in Sources */,
+				4D9491F81E7F348D00A1D8C4 /* Forecast.swift in Sources */,
+				4D9491FC1E7F484300A1D8C4 /* Location.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +508,7 @@
 		};
 		4D5E88781E7EBF520046FEAC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9123214C699AAE39E8A41E34 /* Pods-FunShiny.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = JE6A9LTMD3;
@@ -421,11 +517,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = me.fixique.FunShiny;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		4D5E88791E7EBF520046FEAC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DF0162AB7B0EA9ECDB651E7 /* Pods-FunShiny.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = JE6A9LTMD3;
@@ -434,6 +532,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = me.fixique.FunShiny;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -514,6 +613,7 @@
 				4D5E88791E7EBF520046FEAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4D5E887A1E7EBF520046FEAC /* Build configuration list for PBXNativeTarget "FunShinyTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +622,7 @@
 				4D5E887C1E7EBF520046FEAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4D5E887D1E7EBF520046FEAC /* Build configuration list for PBXNativeTarget "FunShinyUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +631,7 @@
 				4D5E887F1E7EBF520046FEAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

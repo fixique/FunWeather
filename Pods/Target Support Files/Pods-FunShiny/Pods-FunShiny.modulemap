@@ -1,0 +1,6 @@
+framework module Pods_FunShiny {
+  umbrella header "Pods-FunShiny-umbrella.h"
+
+  export *
+  module * { export * }
+}
